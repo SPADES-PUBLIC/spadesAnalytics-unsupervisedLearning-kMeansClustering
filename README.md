@@ -51,7 +51,7 @@ Suggested Parameter Values:
 Example Command
 ---------------
 ```ShellSession
-java -cp ~/SpadesAnalytics.jar com.qmedic.spades.task.examples.spark.LogisticRegressionHDFS yourAmazonAccessKey,yourAmazonSecretKey,hdfs://spades-data/development/InstitutionName/1/StudyName/1/MetaData-FeatureExtractor-2015-09-10-17-56-59.082/2010/07/21/*,hdfs://output-spark/output.csv,10-10
+java -cp ~/SpadesAnalytics.jar com.qmedic.spades.task.examples.spark.KMeanClusteringHDFS yourAmazonAccessKey,yourAmazonSecretKey,hdfs://spades-data/development/InstitutionName/1/StudyName/1/MetaData-FeatureExtractor-2015-09-10-17-56-59.082/2010/07/21/*,hdfs://output-spark/output.csv,10-10
 ```
 
 Output
